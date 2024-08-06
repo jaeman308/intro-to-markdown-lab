@@ -6,7 +6,7 @@ The foundation of a website is always in important. One of the top template that
 
 ***Eacxmple of HTML 5 boilerplate***
 
-```
+```html  
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -28,7 +28,7 @@ The first line in your HTML code is the declaration which is called doctype. THe
 
 ***Example:***
 
-``` 
+``` html  
 <!DOCTYPE html>
 ```
 
@@ -41,7 +41,7 @@ The ``<html>`` tag is the top level element of the file. You nest the ``<head>``
 
 ***Example:***
 
-```
+```html 
 <!DOCTYPE html>
 <html lang="en">
   <head></head>
@@ -56,7 +56,7 @@ The ``<head>`` tags contains information that is processed by the machines. Nede
 
 ***Example:***
 
-```
+```html 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -78,7 +78,7 @@ The viewport meta tag renders the width of the page to the width of the device's
 The initial-scale controls the zoom level. The value of 1 for the initial-scale prevents the default zoom of the browser. 
 
 ***Example:*** 
-```
+```html 
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
  ```
 
@@ -87,24 +87,23 @@ The initial-scale controls the zoom level. The value of 1 for the initial-scale 
  The ``<meta>`` tag specifices the document mode for the Internet Explorer. ``IE=edge`` is the highest supported mode. 
 
  ***Example:***
- ```
+ ```html 
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   ```
 ### Title Tag
 The name says it all the title of the web page. This text is shown on your browser's title bar. 
 
 ***Example:*** 
-```
-<title>HTML 5 Boilerplate</title>
-
+```html 
+<title>HTML 5 Boilerplate</title> 
 ```
 
 ### CSS stylesheet: 
 This code links to your custom CSS to the HTML. CSS stands for Cascading Style Sheets. This is the code that makes the website asthetically pleasing. ``rel="stylesheet"`` defines the relationship between the HTML file and the external stylesheet. 
 
 ***Example:***
-```
-  <link rel="stylesheet" href="style.css">
+```html 
+ <link rel="stylesheet" href="style.css">
   ```
 
 ### Script tags in HTML: 
@@ -112,7 +111,9 @@ This code links to your custom CSS to the HTML. CSS stands for Cascading Style S
 This is the link that will connect it to the JavaScript which is the code behind the scences. This where the clicks, inputs and actions are placed. 
 
 ***Example:***
-```	<script src="index.js"></script>```
+```html	
+<script src="index.js"></script>
+```
 
 Here are some great refernces that you can take a look at all of what HTML has to offer including the boilerplate. [MDN HTML Basics](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics)
 
